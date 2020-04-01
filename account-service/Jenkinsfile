@@ -1,0 +1,25 @@
+pipeline {
+	agent any
+	
+	stages {
+		stage('Compile stage'){
+			
+			steps {
+				withMaven(maven: 'localMaven'){
+					sh 'mvn clean compile'
+				}
+			}
+		}
+	
+		stage('Deploy stage'){
+			
+			steps {
+				withMaven(maven: 'localMaven'){
+					sh 'mvn deploy'
+				}
+			}
+		}
+	
+	}
+
+}
