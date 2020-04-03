@@ -56,10 +56,10 @@ public class AccountServiceImpl implements AccountService {
 	}
 
 	@Override
-	@CachePut(value = "account", key = "#accountNumber")
-	public AccountInfo updateDetails(int accountNumber, AccountInfo accountinfo) {
+	//@CachePut(value = "account", key = "#accountNumber")
+	public AccountInfo updateDetails(AccountInfo accountinfo) {
 		// TODO Auto-generated method stub
-		Optional<AccountInfo> account = repository.findById(accountNumber);
+		Optional<AccountInfo> account = repository.findById(accountinfo.getAccountNumber());
 		if(account.isPresent())
 		{
 			repository.save(accountinfo);
@@ -68,3 +68,16 @@ public class AccountServiceImpl implements AccountService {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

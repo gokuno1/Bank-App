@@ -37,5 +37,5 @@ public interface AccountService {
 	 * @param account
 	 * @return AccountInfo
 	 */
-	public AccountInfo updateDetails(int accountNumber, AccountInfo account);
+	public AccountInfo updateDetails(AccountInfo account);
 }

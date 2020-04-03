@@ -13,7 +13,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableCaching
 @EnableCircuitBreaker
-@EnableFeignClients
+@EnableFeignClients("com.example.demo")
 @RefreshScope
 public class AccountServiceApplication {
 
