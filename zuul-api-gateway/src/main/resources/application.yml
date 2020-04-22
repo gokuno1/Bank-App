@@ -4,7 +4,7 @@ spring:
     name: zuul-api-gateway-server
     
   datasource:
-    url: jdbc:mysql://localhost:3306/eshop
+    url: jdbc:mysql://localhost:3306/bankapp
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root

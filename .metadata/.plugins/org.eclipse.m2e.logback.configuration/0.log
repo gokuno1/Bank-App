@@ -1113,3 +1113,13 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-04-09 11:40:23,340 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-04-09 11:40:23,343 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-09 11:40:23,344 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Projects\application\account-service\src\test\resources
+2020-04-09 11:49:13,587 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-09 11:49:55,450 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-09 11:49:55,461 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-09 11:49:55,500 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-09 11:49:55,506 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-09 11:49:55,506 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Projects\application\account-service\src\test\resources
+2020-04-09 11:50:03,667 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-04-09 11:50:15,845 [Worker-5: Launching account-service (12)] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Projects\application\account-service
+2020-04-09 11:50:15,846 [Worker-5: Launching account-service (12)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -Dmaven.test.skip=true -DskipTests clean install -Dstyle.color=always
+2020-04-17 09:29:29,092 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
