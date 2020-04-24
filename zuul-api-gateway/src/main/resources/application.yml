@@ -9,6 +9,20 @@ spring:
     username: root
     password: root
     
+  security:
+    user:
+      name: username
+      password: password
 server:
   port: 8765
   
+  
+#zuul:
+#  routes:
+ #   account-service: 
+  #    path: /account-service/**
+   #   url: http://localhost:8085
+    #  
+    #transaction-service:
+     # path: /transaction-service/**
+      #url: http://localhost:8086
